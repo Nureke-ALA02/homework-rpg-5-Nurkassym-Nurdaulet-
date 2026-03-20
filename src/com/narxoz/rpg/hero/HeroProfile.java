@@ -14,7 +14,6 @@ public class HeroProfile {
         return health;
     }
     public void takeDamage(int amount) {
-
         if (amount < 0) {
             return;
         }
