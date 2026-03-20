@@ -15,8 +15,8 @@ public class Main {
         System.out.println("=== Homework 5 Demo: Decorator + Facade ===\n");
 
         // TODO: Create a hero and a boss with your own meaningful stats.
-        HeroProfile hero = new HeroProfile("TODO Hero", 100);
-        BossEnemy boss = new BossEnemy("TODO Boss", 120, 15);
+        HeroProfile hero = new HeroProfile("Hero", 100);
+        BossEnemy boss = new BossEnemy("Boss", 120, 15);
 
         // TODO: Start with a base action and then create several decorated versions.
         AttackAction basic = new BasicAttack("Strike", 10);
