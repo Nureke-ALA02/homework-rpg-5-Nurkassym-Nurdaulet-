@@ -5,9 +5,11 @@ import java.util.Collections;
 import java.util.List;
 
 public class AdventureResult {
+
     private String winner;
     private int rounds;
     private String reward;
+
     private final List<String> log = new ArrayList<>();
 
     public String getWinner() {
